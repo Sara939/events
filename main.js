@@ -22,11 +22,66 @@
 //     var othertext= document.getElementById("mytext");
 //     othertext.textContent = "this new text";
 // }
-// 6:///////////////////////////////////////////////////////////////////
+// 6:
+
 // function getname(){
-//     var usern= prompt("enter name");
-//     console.log(usern);
+//     var username= prompt("enter your name");
+//     document.write(username);
 // }
 // function print(){
-//     document.write(usern);
+//     var whenpreesed= document.getElementById("click");
+//     getname();
+    
 // }
+// 7:
+//     var myobje= document.getElementById("mydate");
+//     var currenttime= new Date().getHours();
+// window.onload= function windcolor(){
+//     if (currenttime < 17){
+//         myobje.style.backgroundColor = "yellow";
+
+//     }
+//     else{
+//         myobje.style.backgroundColor = "blue";
+// }
+// windgreeding();
+// }
+
+///////////////////////////////////////////////////////////////
+// function windgreeding(){
+//     var greed= document.getElementById("mydate");
+//     if (currenttime < 12){
+//         greed.innerHTML = "good day";
+//         document.write(greed);
+
+//     }
+//     else{
+//         greed.innerHTML =" good evening";
+//         document.write(greed);
+//     }
+
+// }
+// 8:
+var userage= +prompt("enter your age");
+
+window.onload= function startage(){
+    document.write("welcom");
+}
+msgred= document.getElementById("mydiv").addEventListener("load",getage);
+
+ function getage(){
+    if(userage>18){
+        msgred=document.getElementById("mydiv");
+        msgred.style.color = "red";
+    }
+    else{  
+        msgred.style.color = "green";
+    }
+    
+}
+
+msgred= document.getElementById("mydiv").addEventListener("mouseover",chgcolor);
+function chgcolor(){
+   
+    msgred.style.color = "green";
+}
