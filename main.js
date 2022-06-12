@@ -61,27 +61,57 @@
 //     }
 
 // }
-// 8:
-var userage= +prompt("enter your age");
+// 8:///////////////////////////////////////////////////////////////////////////////////////
+// var userage= +prompt("enter your age");
 
-window.onload= function startage(){
-    document.write("welcom");
-}
-msgred= document.getElementById("mydiv").addEventListener("load",getage);
+// function startage(){
+//     document.write("welcom");
+// }
+// msgred= document.getElementById("mydiv").addEventListener("load",getage);
 
- function getage(){
-    if(userage>18){
-        msgred=document.getElementById("mydiv");
-        msgred.style.color = "red";
+//  function getage(){
+//     if(userage>18){
+//         msgred=document.getElementById("mydiv");
+//         msgred.style.color = "red";
+//     }
+//     else{  
+//         msgred.style.color = "green";
+//     }
+    
+// }
+
+// msgred= document.getElementById("mydiv").addEventListener("mouseover",chgcolor);
+// function chgcolor(){
+   
+//     msgred.style.color = "green";
+// }
+
+// 9:
+function myinput(){
+    for(var i=0; i<6; i++){
+    var usersinput = document.getElementById("myInput").onclick= ()=>{
+        document.write(usersinput);   
     }
-    else{  
-        msgred.style.color = "green";
+    
+}
+}
+function rannum(){
+    for(var i= 0; i<5; i++){
+       var mynum= Math.floor(Math.random()*57);
+       document.write(mynum); 
     }
     
 }
 
-msgred= document.getElementById("mydiv").addEventListener("mouseover",chgcolor);
-function chgcolor(){
-   
-    msgred.style.color = "green";
+function mylotu(){
+    myinput();
+    rannum();
+    if(mynum[i]==usersinput[i]){
+        document.write("sucsess"); 
+    }
+    else{
+        document.write("fail");
+    }
 }
+
+mylotu();
