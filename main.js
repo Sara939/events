@@ -119,6 +119,56 @@
 // // mylotu();
 
 
-// 2/6:
+// 2.6.22: 
+
+    
+// function recivenameandbday(){
+//     var uName= document.getElementById("usersname").value;
+//     var bDay= document.getElementById("usersbday").value;
+//     var usersdate= new Date(bDay);
+//     var nowdate= new Date();
+//     var myelm= document.getElementById("mydiv");
+//     var sara= nowdate - usersdate;
+
+//     if (nowdate.getFullYear()-usersdate.getFullYear() > 18){
+//         myelm.innerHTML= "welcom";
+//         myelm.style.color= "blue"; 
+//     }
+//     else{
+//         myelm.innerHTML= "no entre";
+//         myelm.style.color= "red";
+//         myelm.innerHTML= "<img src='mypic.jpg'>";
+//     }
+// }
+
+// recivenameandbday();
 
 
+// function changtogreen(){
+//     // document.getElementById("h1_id").innerHTML = "hey you";
+//     document.getElementById("h1_id").style.color= "green";
+
+// }
+
+//     var myBtn= document.getElementById("clickbtn");  
+//     myBtn.onclick= function namesfunction(){ 
+//     document.getElementById("mylist").innerHTML+="<li>"+ inputvalue+ "</li>";
+        
+// }
+    // var arrayvalue= [];
+    // var myvalue= document.getElementById("mynamesinput").value;
+    // function saveval(){
+
+    //     for(var i=0; i<4; i++){
+    //         arrayvalue+= myvalue;
+    //     }
+        
+    // }
+    
+    // function namesfunction(){ 
+    //     document.getElementById("mylist").innerHTML+="<li>"+ arrayvalue +"</li>";
+    // }
+
+    // var myBtn= document.getElementById("clickbtn"); 
+    // myBtn.addEventListener("click",namesfunction);
+    
